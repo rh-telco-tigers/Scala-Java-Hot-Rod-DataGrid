@@ -1,8 +1,5 @@
-## sbt project compiled with Scala 3
 
-### Usage
-
-This article shows the client code config to access a DataGrid cluster using Scala. Scala uses Java Hot Rod client provided Out of the box as part of DataGrid product.
+### This article shows the client code config to access a DataGrid cluster using Scala. Scala uses Java Hot Rod client provided as part of DataGrid product.
 
 - Setup sbt (Scala Build Tool). [Instructions](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
 
@@ -36,5 +33,5 @@ import org.infinispan.commons.api.BasicCacheContainer
 ```
 - Open promt at project level and exec "sbt run".
 
-- Open your Cache in DataGrid console and you should see cache entries in the list.
+- Open your Cache in DataGrid console and you should see cache entries in the list. [img]()
 
